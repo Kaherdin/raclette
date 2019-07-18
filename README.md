@@ -4,7 +4,7 @@ The community's best attempt to recreate Moulinette.
 
 It isn't 100% accourate. So if it says everything is good, it might still be wrong. Also, it might have some false-positive errors. But again, this is the best we got.
 
-If you notice an error please open an issue about it here in the repo.
+If you notice an error please open an [issue](https://github.com/kristofk/MockMoulinette/issues) about it here in the repo.
 
 ## Prerequisits
 
@@ -33,13 +33,13 @@ Now you should have the results on the Desktop in RESULT.txt file and this file 
  
  **Other errors**
   - Solution #1: Make sure that the arguments are correct in the script call (`sh mockmoulinette <repo_link> <day_number>`)
-  - Solution #2: Open an issue
+  - Solution #2: Open an [issue](https://github.com/kristofk/MockMoulinette/issues)
 
 ## Contributing
 
-If you notice a bug or an error or have a question then open an Issue regarding it.
+If you notice a bug or an error or have a question then open an [issue](https://github.com/kristofk/MockMoulinette/issues) regarding it.
 
-If you want to help but don't know how then check the Issues.
+If you want to help but don't know how then check the [issues](https://github.com/kristofk/MockMoulinette/issues).
 
 When you have changes ready, you can create pull requests.
 
