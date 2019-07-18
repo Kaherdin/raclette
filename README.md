@@ -44,3 +44,42 @@ If you want to help but don't know how then check the [issues](https://github.co
 When you have changes ready, you can create pull requests.
 
 I will respond to everyone asap.
+
+## Example outputs
+
+```
++-+-+-+-+-+-+-+-+-+-+
+|N|o|r|m|i|n|e|t|t|e|
++-+-+-+-+-+-+-+-+-+-+
+
+Norme: ./work/ex00/ft_ft.c
+Norme: ./work/ex01/ft_ultimate_ft.c
+Norme: ./work/ex02/ft_swap.c
+Norme: ./work/ex03/ft_div_mod.c
+Norme: ./work/ex04/ft_ultimate_div_mod.c
+Norme: ./work/ex05/ft_putstr.c
+Norme: ./work/ex06/ft_strlen.c
+Norme: ./work/ex07/ft_strrev.c
+Norme: ./work/ex08/ft_atoi.c
+Norme: ./work/ex09/ft_sort_integer_table.c
+
++-+-+-+-+-+-+-+-+-+-+
+|M|o|u|l|i|n|e|t|t|e|
++-+-+-+-+-+-+-+-+-+-+
+
+work/ex00/main good!
+work/ex01/main good!
+work/ex02/main good!
+work/ex03/main good!
+work/ex04/main good!
+work/ex05/main_basic good!
+work/ex05/main_multiple good!
+work/ex05/main_empty good!
+work/ex06/main_basic good!
+work/ex06/main_empty good!
+work/ex07/main_basic good!
+work/ex07/main_empty good!
+work/ex08/main_basic good!
+work/ex08/main_big good!
+work/ex09/main_basic good!
+```
