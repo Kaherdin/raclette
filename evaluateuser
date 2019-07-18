@@ -20,3 +20,6 @@ echo "+-+-+-+-+-+-+-+-+-+-+\n" >> RESULT.txt
 ./tools/check_all.sh >> RESULT.txt
 
 cp RESULT.txt ~/Desktop
+
+echo "The results can be found on the Desktop in RESULT.txt"
+open ~/Desktop/RESULT.txt
