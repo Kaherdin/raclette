@@ -1,34 +1,29 @@
-# 42 Stupidity
+# MockMoulinette
 
-A tool for quickly test solutions for the piscine exercises.
+The community's best attempt to recreate Moulinette.
+
+It isn't 100% accourate. So if it says everything is good, it might still be wrong. Also, it might have some false-positive errors. But again, this is the best we got.
+
+If you notice an error please open an issue about it here in the repo.
 
 ## Usage
- 
-1. Clone 42us-stupidity
-2. Go inside 42us-stupidity
-3. Clone a day's repo inside 42us-stupidity
-4. Run `./spawn.pl <day_repo> config_d<day_number>.pl`<br>
-    Replacing the placeholders! This will create the test files for all the exercises.
-5. Run `./tools/build.sh`<br>
-  Build the exercies' files with the provided main.c's.
-6. Run `./tools/verify.sh`<br>
-  This makes norminette verify all the files. (Only works from the iMacs in the labs.)
-7. Run `./tools/check_all.sh`<br>
-  This will perform every test. If tests pass then they will say `good` otherwise errors are printed on the terminal.
-  
-## Example workflow
 
-```
-$ git clone https://github.com/mirror12k/42us-stupidity.git stupidMoulinette
-...
-$ cd stupidMoulinette
-$ cp ~/Desktop/day03 day03
-$ ./spawn.pl day03 config_d03.pl
-...
-$ ./tools/build.sh
-...
-$ ./tools/verify.sh
-...
-$ ./tools/check_all.sh
-...
-```
+1. Go to [releases](https://github.com/kristofk/MockMoulinette/releases)
+2. From the latest release download `mockmoulinette`
+3. Go into the download folder and run:
+
+> `sh mockmoulinette <git_repo_to_evaluate> <day_number>` 
+
+(e.g. `sh mockmoulinette vogsphere@vgs.42.us.org:intra/2019/activities/piscine_c_day_06/uuser 06`)
+
+Now you should have the results on the Desktop in RESULT.txt file and this file should be open infront of you.
+
+## Common errors and mistakes
+
+**Error: No such file or directory**
+ - Solution #1: Check the extension, some browsers put some extension to the file
+ - Solution #2: Check that you are in the right folder: the one that contains the script
+ 
+ **Other errors**
+  - Solution #1: Make sure that the arguments are correct in the script call (`sh mockmoulinette <repo_link> <day_number>`)
+  - Solution #2: Open an issue
