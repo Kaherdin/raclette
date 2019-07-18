@@ -1,10 +1,14 @@
 # MockMoulinette
 
+A script that runs Norminette and compiles your code and runs some Moulinette checks automatically with the correct flags. Great for peer reviews and checking your own work.
+
 The community's best attempt to recreate Moulinette.
 
 It isn't 100% accourate. So if it says everything is good, it might still be wrong. Also, it might have some false-positive errors. But again, this is the best we got.
 
 If you notice an error please open an [issue](https://github.com/kristofk/MockMoulinette/issues) about it here in the repo.
+
+The Moulinette checks are based on [42us-stupidity](https://github.com/mirror12k/42us-stupidity).
 
 ## Prerequisits
 
@@ -24,6 +28,8 @@ You have to run this on a computer provided by School42. There are 2 reasons for
 (e.g. `sh mockmoulinette vogsphere@vgs.42.us.org:intra/2019/activities/piscine_c_day_06/uuser 06`)
 
 Now you should have the results on the Desktop in RESULT.txt file and this file should be open infront of you.
+
+4. Before you run it again delete the RESULT.txt file from the Desktop.
 
 ## Common errors and mistakes
 
@@ -47,6 +53,7 @@ I will respond to everyone asap.
 
 ## Example outputs
 
+Example of a perfect output:
 ```
 +-+-+-+-+-+-+-+-+-+-+
 |N|o|r|m|i|n|e|t|t|e|
