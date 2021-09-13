@@ -1,5 +1,21 @@
 #!/bin/sh
+# echo You want to start from a local folder or a remote repository ?
 
+#read -n1 -p "Do that? [local,remote]" doit 
+#case $doit in  
+ # l|L) echo "\n localasdasdsadsadas" ;; 
+  #r|R) echo "\n remote" ;; 
+  #*) echo dont know ;; 
+# esac
+
+#while true; do
+ #   read -p "You want to start from a local folder or a remote repository ?" lc
+  #  case $yn in
+   #     [Yy]* ) make install; break;;
+    #    [Nn]* ) exit;;
+     #   * ) echo "Please answer yes or no.";;
+    #esac
+# done
 
 echo "EVALUATING USER"
 git clone $1 user_c$2 -q
