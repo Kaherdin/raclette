@@ -3,12 +3,11 @@ ft
 source_mock_stuff ====
 #include <stdio.h>
 
-// this is already in stupidity.c
-/*void ft_putchar(char c)
+void ft_putchar(char c)
 {
 	c++;
 	printf("ft_putchar\n");
-}*/
+}
 void ft_putstr(char* str)
 {
 	str++;
