@@ -1,0 +1,28 @@
+#!/bin/sh
+echo "EVALUATING USER"
+git clone $1 user_c$2 -q
+#clear
+./spawn.pl user_c$2 "config_c$2.pl"
+#clear
+./tools/build.sh
+#clear
+
+echo "\n\n$(date) : \n" >> RESULT_C$2.txt
+echo "+-+-+-+-+-+-+-+-+-+-+" >> RESULT_C$2.txt
+echo "|N|o|r|m|i|n|e|t|t|e|" >> RESULT_C$2.txt
+echo "+-+-+-+-+-+-+-+-+-+-+\n" >> RESULT_C$2.txt
+
+./tools/verify.sh >> RESULT_C$2.txt
+
+echo "\n+-+-+-+-+-+-+-+-+-+-+" >> RESULT_C$2.txt
+echo "|M|o|u|l|i|n|e|t|t|e|" >> RESULT_C$2.txt
+echo "+-+-+-+-+-+-+-+-+-+-+\n" >> RESULT_C$2.txt
+
+./tools/check_all.sh >> RESULT_C$2.txt
+
+rm -rf tools/ user_c$2/ work/
+
+#cp RESULT_C$2.txt ~/Desktop
+
+echo "The results can be found in RESULT_C$2.txt"
+open ./RESULT_C$2.txt
