@@ -1,8 +1,10 @@
 #!/bin/sh
+
+
 echo "EVALUATING USER"
 git clone $1 user_c$2 -q
 #clear
-./spawn.pl user_c$2 "config_c$2.pl"
+./spawn.pl user_c$2 "config/config_c$2.pl"
 #clear
 ./tools/build.sh
 #clear
@@ -20,7 +22,7 @@ echo "+-+-+-+-+-+-+-+-+-+-+\n" >> RESULT_C$2.txt
 
 ./tools/check_all.sh >> RESULT_C$2.txt
 
-rm -rf tools/ user_c$2/ work/
+#rm -rf tools/ user_c$2/ work/
 
 #cp RESULT_C$2.txt ~/Desktop
 
