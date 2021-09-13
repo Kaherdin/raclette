@@ -1,8 +1,8 @@
-# MockMoulinette
+# Raclette (moulinette)
 
 A script that runs Norminette and compiles your code and runs some Moulinette checks automatically with the correct flags. Great for peer reviews and checking your own work.
 
-The community's best attempt to recreate Moulinette.
+A Swiss adaptation of theThe community's best attempt to recreate Moulinette.
 
 It isn't 100% accourate. So if it says everything is good, it might still be wrong. Also, it might have some false-positive errors. But again, this is the best we got.
 
@@ -17,19 +17,17 @@ You have to run this on a computer provided by School42. There are 2 reasons for
  - Only those machines have the necessery kerberos tickets and access rights
  - Only those machines have the command necessary for this project: `norminette`
 
-## Usage
+## Usage 
 
-1. Go to [releases](https://github.com/kristofk/MockMoulinette/releases)
-2. From the latest release download `mockmoulinette`
-3. Go into the download folder and run:
+1. Clone this repo `git clone git@github.com:Kaherdin/raclette.git raclette`
+2. Go into the clone folder and run:
 
-> `sh mockmoulinette <git_repo_to_evaluate> <day_number>` 
+> `sh raclette <git_repo_to_evaluate> <c_number>` 
 
-(e.g. `sh mockmoulinette vogsphere@vgs.42.us.org:intra/2019/activities/piscine_c_day_06/uuser 06`)
+(e.g. `sh raclette git@vogsphere.42lausanne.ch:vogsphere/intra-uuid-b4e5dcb1-6e64-48f3-96d6-fb71cf847541-3766933 06`)
 
-Now you should have the results on the Desktop in RESULT.txt file and this file should be open infront of you.
+Now you should have the results in RESULT_CXX.txt file and this file should be open infront of you.
 
-4. Before you run it again delete the RESULT.txt file from the Desktop.
 
 ## Common errors and mistakes
 
