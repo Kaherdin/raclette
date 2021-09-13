@@ -24,7 +24,7 @@ You have to run this on a computer provided by School42. There are 2 reasons for
 
 > `sh raclette <git_repo_to_evaluate> <c_number>` 
 
-(e.g. `sh raclette git@vogsphere.42lausanne.ch:vogsphere/intra-uuid-b4e5dcb1-6e64-48f3-96d6-fb71cf847541-3766933 06`)
+(e.g. `sh raclette git@vogsphere.42lausanne.ch:vogsphere/intra-uuid-...... 06`)
 
 Now you should have the results in RESULT_CXX.txt file and this file should be open infront of you.
 
