@@ -2,7 +2,7 @@
 
 A script that runs Norminette and compiles your code and runs some Moulinette checks automatically with the correct flags. Great for peer reviews and checking your own work.
 
-A Swiss adaptation of theThe community's best attempt to recreate Moulinette.
+A Swiss adaptation of theThe community's best attempt to recreate Moulinette (https://github.com/kristofk/MockMoulinette).
 
 It isn't 100% accourate. So if it says everything is good, it might still be wrong. Also, it might have some false-positive errors. But again, this is the best we got.
 
