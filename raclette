@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo "EVALUATING USER"
+echo "Eval in progress"
 git clone $1 user_c$2 -q
 #clear
 ./spawn.pl user_c$2 "config/config_c$2.pl"
