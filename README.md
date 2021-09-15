@@ -19,7 +19,7 @@ You have to run this on a computer provided by School42. There are 2 reasons for
 
 ## Usage 
 
-1. Clone this repo `git clone git@github.com:Kaherdin/raclette.git raclette`
+1. Clone this repo `git clone git@github.com:Kaherdin/raclette.git` or `git clone https://github.com/Kaherdin/raclette.git`
 2. Go into the clone folder and run:
 
 > `sh raclette <git_repo_to_evaluate> <c_number>` 
