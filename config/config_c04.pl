@@ -127,6 +127,15 @@ int main()
 check_big -e ====
 $expected = '2147483647,-2147483648';
 ====
+main_special ====
+int main()
+{
+	printf("%d", ft_atoi(" ---+--+1234ab567"));
+}
+====
+check_special -e ====
+$expected = '-1234';
+====
 
 ex04
 ft_putnbr_base(int nbr, char* base)
