@@ -67,7 +67,7 @@ res = ft_iterative_power(5, 3), exp = 125;
 printf("5^3 (%d vs %d) -> %d\n", res, exp, res == exp);
 res = ft_iterative_power(3, 5), exp = 243;
 printf("3^5 (%d vs %d) -> %d\n", res, exp, res == exp);
-==== check -l=8 ====
+==== check -l=7 ====
 ====
 
 
@@ -90,7 +90,7 @@ res = ft_recursive_power(5, 3), exp = 125;
 printf("5^3 (%d vs %d) -> %d\n", res, exp, res == exp);
 res = ft_recursive_power(3, 5), exp = 243;
 printf("3^5 (%d vs %d) -> %d\n", res, exp, res == exp);
-==== check -l=8 ====
+==== check -l=7 ====
 ====
 
 
