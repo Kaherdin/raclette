@@ -1,5 +1,5 @@
 
-ex01 -p
+ex00 -p
 ft_print_program_name
 check -t ====
 %tests = (
@@ -9,7 +9,7 @@ check -t ====
 ====
 
 
-ex02 -p
+ex01 -p
 ft_print_params
 check -t ====
 %tests = (
@@ -23,7 +23,7 @@ check -t ====
 ====
 
 
-ex03 -p
+ex02 -p
 ft_rev_params
 check -t ====
 %tests = (
@@ -37,7 +37,7 @@ check -t ====
 ====
 
 
-ex04 -p
+ex03 -p
 ft_sort_params
 check -t ====
 %tests = (
