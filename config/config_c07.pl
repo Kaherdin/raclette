@@ -9,10 +9,46 @@ str = "", res = ft_strdup(str);
 printf("%d, '%s' vs '%s'\n", res != str, res, str);
 str = "hello world!", res = ft_strdup(str);
 printf("%d, '%s' vs '%s'\n", res != str, res, str);
+str = ft_strdup("hello 42");
+printf("%s\n", str);
+free(str);
+str = ft_strdup("GRZ");
+printf("%s\n", str);
+free(str);
+str = ft_strdup("5CUhj9hjzPBwNbH1rWRnBvbksw67L23xy09PiROiA6");
+printf("%s\n", str);
+free(str);
+str = ft_strdup("ehKobbUlJteRzar2fCiesg5u39REJjg8z");
+printf("%s\n", str);
+free(str);
+str = ft_strdup("NRSEjE");
+printf("%s\n", str);
+free(str);
+str = ft_strdup("cSThlBeFgMpDxgnG8zmgjxYOGxBW9Kpm");
+printf("%s\n", str);
+free(str);
+str = ft_strdup("4RWXz");
+printf("%s\n", str);
+free(str);
+str = ft_strdup("ymx8NnHvSXOwPCXCfp8ViOoi4AddJhR2");
+printf("%s\n", str);
+free(str);
+str = ft_strdup("rK6Hdb5hvWdNpIcaDc5tbB");
+printf("%s\n", str);
+free(str);
 ==== check -e ====
 $expected = "1, 'asdf' vs 'asdf'
 1, '' vs ''
 1, 'hello world!' vs 'hello world!'
+hello 42
+GRZ
+5CUhj9hjzPBwNbH1rWRnBvbksw67L23xy09PiROiA6
+ehKobbUlJteRzar2fCiesg5u39REJjg8z
+NRSEjE
+cSThlBeFgMpDxgnG8zmgjxYOGxBW9Kpm
+4RWXz
+ymx8NnHvSXOwPCXCfp8ViOoi4AddJhR2
+rK6Hdb5hvWdNpIcaDc5tbB
 ";
 ====
 
